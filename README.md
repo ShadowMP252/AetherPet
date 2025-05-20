@@ -4,7 +4,7 @@
 
 ---
 
-## 🕧 Recent Changes
+## 🕧 Recent Changes _v0.1.0-alpha_
 - Created Dev Branch
 
 ## 🌱 Phase 1 — CLI ASCII Pet Simulator
