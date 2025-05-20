@@ -68,8 +68,9 @@ Phase  |	Description \
 ---
 
 ## 👥 Team AetherPet
-- Tyler Fletcher - Systems/AI Architect / DevOps
-- Matt Dragon - Systems/UX Dev
+- **Tyler Fletcher** - Systems/AI Architect / DevOps
+- **Matthew Dragon** - Systems/UX Dev
+- 
 
 ---
 
