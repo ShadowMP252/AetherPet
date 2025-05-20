@@ -48,7 +48,7 @@ AetherPet/ \
    cd AetherPet
 2. Open in VS Code: \
     Accept Java SDK prompt\
-    Press _[ F5 ]_ or go to Run > Start Debugging
+    Press *[ F5 ]* or go to Run > Start Debugging
 3. OR use the script:
     ```bash
     ./scripts/run.sh
@@ -79,5 +79,5 @@ Phase  |	Description \
 ---
 
 ## 📄 License
-> MIT License (see _LICENSE_ file)
+> MIT License (see *LICENSE* file)
 - Copyright (c) 2025 [ OsirisTech Co. LLC ]
