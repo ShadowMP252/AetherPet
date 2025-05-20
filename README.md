@@ -4,6 +4,10 @@
 
 ---
 
+## 🕧 Recent Changes
+- Created Dev Branch
+
+
 ## 🌱 Phase 1 — CLI ASCII Pet Simulator
 
 ### 🎯 Current Goals
