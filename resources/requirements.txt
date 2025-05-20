@@ -1,0 +1,23 @@
+
+# Virtual Environment is not saved into the REPO, you still need to create your .venv environment and then pip install -r resources/requirements.txt
+
+
+# Common Libraries
+pandas
+requests
+numpy
+rich
+click
+pytest
+black
+mypy
+ipython
+jupyterlab
+flake8
+
+
+
+# Future AI integration placeholder (commented for now)
+# transformers
+# torch
+# accelerate
