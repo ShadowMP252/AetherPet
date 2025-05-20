@@ -6,7 +6,6 @@
 
 ## 🕧 Recent Changes
 - Created Dev Branch
-- SimLinked both branches
 
 ## 🌱 Phase 1 — CLI ASCII Pet Simulator
 
