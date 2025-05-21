@@ -32,6 +32,9 @@ RUN ln -s /usr/bin/python3 /usr/bin/python
 # Clean Up Cache
 RUN rm -rf /var/lib/apt/lists/*
 
+# One last Update and install tree
+RUN apt-get update && apt-get install tree
+
 # Set working directory 
 # We are using /app so that when we git clone AetherPet -> the directory will read /app/AetherPet instead of /AetherPet/AetherPet
 WORKDIR /app
