@@ -1,7 +1,11 @@
 package aetherpet.model;
 
-public class Stats {
+import java.io.Serializable;
 
+public class Stats implements Serializable {
+    
+    // Serializable State
+    private static final long serialVersionUID = 1L;
     // Base Stats
     private int hunger = 50;
     private int happiness = 50;

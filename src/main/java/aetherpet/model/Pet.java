@@ -1,8 +1,12 @@
 package aetherpet.model;
 
 import aetherpet.ui.*;
+import java.io.Serializable; // For the Save States.
 
-public class Pet {
+public class Pet implements Serializable {
+    
+    // Serializable state
+    private static final long serialVersionUID = 1L;
 
     private String name;
     private Stats stats;
@@ -15,6 +19,7 @@ public class Pet {
     }
     
     public int getTurns() { return turns; }
+    public String getName() { return name; }
 
     // Action Steps
     public void feed() { stats.increaseHunger(); turns++; decay();}

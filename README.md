@@ -4,8 +4,8 @@
 
 ---
 
-## 🕧 Recent Changes _v0.1.0-alpha_
-- Created Basic CLI GameEngine and Artwork
+## 🕧 Recent Changes _v0.1.2-alpha_
+- Created Basic Save Function
 
 ## 🌱 Phase 1 — CLI ASCII Pet Simulator
 

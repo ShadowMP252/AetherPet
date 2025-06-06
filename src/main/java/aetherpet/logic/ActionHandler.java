@@ -36,6 +36,7 @@ public class ActionHandler {
                 break;
             
             case "6":
+                Save.saveState(pet);
                 System.out.println("Goodbye!");
                 System.out.println("(╥﹏╥)");
                 break;
