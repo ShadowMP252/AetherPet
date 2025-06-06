@@ -43,7 +43,7 @@ AetherPet/ \
 │   ├── java # Test Java \
 │   ├── other # Test JS/Lua/other \
 │   ├── python # Test Python \
-└── utils # Shared input/output/helper logic \
+└── utils # Shared input/output/helper logic
 
 ---
 
