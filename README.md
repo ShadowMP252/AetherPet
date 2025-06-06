@@ -5,7 +5,7 @@
 ---
 
 ## 🕧 Recent Changes _v0.1.0-alpha_
-- Created Dev Branch
+- Created Basic CLI GameEngine and Artwork
 
 ## 🌱 Phase 1 — CLI ASCII Pet Simulator
 
@@ -21,20 +21,29 @@
 
 ## 📦 Project Structure
 AetherPet/ \
-├── .vscode/ # VS Code config (launch/debug) \
-├── docker/ # (Optional) Dockerfile for containerized dev \
-├── docs/ # Design docs, phase outlines \
-├── saves/ # Pet save data (for later persistence) \
-├── scripts/ # run.sh, build.sh for CLI automation \
-├── src/ \
-│ ├── dev/ # Experimental code (Java + future Python) \
-│ └── main/ \
-│ ├── java/ # Core application logic (Java Phase 1) \
-│ └── python/ # Future AI logic modules \
-├── tests/ # Unit tests (Java, future Python) \
-├── utils/ # Shared input/output/helper logic \
-├── .gitignore \
-└── README.md
+├── docker # (Optional) Dockerfile for containerized dev \
+├── docs # Design docs, phase outlines \
+├── logs # Log Directory \
+├── memory # AI Memory files \
+├── resources # Resources/Artwork/Images/Other \
+├── saves # Pet save data (for later persistence) \
+├── scripts # run.sh, build.sh for CLI automation \
+├── src \
+│   ├── main \
+│   │   ├── java # Core Java application logic \
+│   │   │   ├── aetherpet # Core Main Application Logic \
+│   │   │   │   ├── engine # Engine Files \
+│   │   │   │   ├── logic # ActionHandler \
+│   │   │   │   ├── model # Pet and Stats files \
+│   │   │   │   └── ui # Artwork \
+│   │   │   └── other # Random other files \
+│   │   └── python # Cose Python application logic & Future AI logic modules \
+│   └── other # Random other files outside application \
+├── tests # Test files\
+│   ├── java # Test Java \
+│   ├── other # Test JS/Lua/other \
+│   ├── python # Test Python \
+└── utils # Shared input/output/helper logic \
 
 ---
 
@@ -59,8 +68,8 @@ AetherPet/ \
 
 ## 🧠 Future Phases (Long-Term Roadmap)
 Phase  |	Description \
-1      |   CLI-based Tamagotchi w/ ASCII art \
-2      |   Save/load support (JSON or text) \
+1      |   CLI-based Tamagotchi w/ ASCII art \ **Done**
+2      |   Save/load support (JSON or text) \ **In-Progress**
 3      |   Stat decay over time w/ multithreading \
 4      |   AI behavior engine (rule-based → tree-based) \
 5      |   GUI version (JavaFX or Swing)  \
