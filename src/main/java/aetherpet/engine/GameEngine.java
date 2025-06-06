@@ -1,8 +1,8 @@
 package aetherpet.engine;
 
 import java.util.Scanner;
-import aetherpet.model.*;
-import aetherpet.logic.*;
+import aetherpet.model.*; // Import Stats and Pets
+import aetherpet.logic.ActionHandler; // Import ActionHandler
 
 public class GameEngine {
 
